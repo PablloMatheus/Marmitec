@@ -1,0 +1,21 @@
+Grupo: Levyson Luan Costa do Amaral
+            Luan Ramos
+            Thifany Deborah
+
+
+
+
+1- O projeto é um crud de um restaurante delivery, o programa possui a classe principal que utiliza a maioria dos metodos da classe cardapio, que tambem é aonde o programa faz a conexão com o mysql utilizando hibernate, o programa cria uma tabela diferente para cada tipo de produto consumivel que está disponivel para o cliente, o programa adiciona produtos no construtor do cardapio, e quando é finalizado de forma correta, os produtos são apagados do banco de dados, para não dar erro nas proximas execuções, isso pode ser melhorado em versões futuras.
+
+2-O teste de realizar pedido cria um pedido teste passando todos os parametros necessários e depois comparando para se certificar de que tudo foi devidamente registrado.
+
+O teste de criar comida cria uma comida teste passando todos os parametros necessários e depois comparando para se certificar de que tudo foi devidamente registrado.
+
+3-O programa não teve tratamento de concorrência.
+
+4-O JDBC e o JPA são APIs do java utilizados para se comunicar com o banco de dados, o JPA contem a descrição das classes e interfaces necessárias para se comunicar com os bancos de dados, padronizando a linguagem utilizada no seu código para que não precise ser modificada caso troque de Hibernate para eclipselink, por exemplo.
+
+5- o EntityManager serve para manipular as entidades do seu código, adicionando, deletando, ou atualizando-as no seu banco de dados.
+
+6- Unidade de persistencia: nome dado ao xml, Lista de entidades: lista de classes que serão mapeadas para serem utilizadas no banco de dados, Propriedades JDBC: configuração do tipo, local, usuário e senha do banco de dados,
+Configurações específicas do hibernate: métodos de print no console e afins.
