@@ -1,21 +1,14 @@
-Grupo: Levyson Luan Costa do Amaral
-            Luan Ramos
-            Thifany Deborah
+1- O projeto √© um crud de um restaurante delivery, o programa possui a classe principal que utiliza a maioria dos metodos da classe cardapio, que tambem √© aonde o programa faz a conex√£o com o mysql utilizando hibernate, o programa cria uma tabela diferente para cada tipo de produto consumivel que est√° disponivel para o cliente, o programa adiciona produtos no construtor do cardapio, e quando √© finalizado de forma correta, os produtos s√£o apagados do banco de dados, para n√£o dar erro nas proximas execu√ß√µes, isso pode ser melhorado em vers√µes futuras.
 
+2-O teste de realizar pedido cria um pedido teste passando todos os parametros necess√°rios e depois comparando para se certificar de que tudo foi devidamente registrado.
 
+O teste de criar comida cria uma comida teste passando todos os parametros necess√°rios e depois comparando para se certificar de que tudo foi devidamente registrado.
 
+3-O programa n√£o teve tratamento de concorr√™ncia.
 
-1- O projeto È um crud de um restaurante delivery, o programa possui a classe principal que utiliza a maioria dos metodos da classe cardapio, que tambem È aonde o programa faz a conex„o com o mysql utilizando hibernate, o programa cria uma tabela diferente para cada tipo de produto consumivel que est· disponivel para o cliente, o programa adiciona produtos no construtor do cardapio, e quando È finalizado de forma correta, os produtos s„o apagados do banco de dados, para n„o dar erro nas proximas execuÁıes, isso pode ser melhorado em versıes futuras.
+4-O JDBC e o JPA s√£o APIs do java utilizados para se comunicar com o banco de dados, o JPA contem a descri√ß√£o das classes e interfaces necess√°rias para se comunicar com os bancos de dados, padronizando a linguagem utilizada no seu c√≥digo para que n√£o precise ser modificada caso troque de Hibernate para eclipselink, por exemplo.
 
-2-O teste de realizar pedido cria um pedido teste passando todos os parametros necess·rios e depois comparando para se certificar de que tudo foi devidamente registrado.
+5- o EntityManager serve para manipular as entidades do seu c√≥digo, adicionando, deletando, ou atualizando-as no seu banco de dados.
 
-O teste de criar comida cria uma comida teste passando todos os parametros necess·rios e depois comparando para se certificar de que tudo foi devidamente registrado.
-
-3-O programa n„o teve tratamento de concorrÍncia.
-
-4-O JDBC e o JPA s„o APIs do java utilizados para se comunicar com o banco de dados, o JPA contem a descriÁ„o das classes e interfaces necess·rias para se comunicar com os bancos de dados, padronizando a linguagem utilizada no seu cÛdigo para que n„o precise ser modificada caso troque de Hibernate para eclipselink, por exemplo.
-
-5- o EntityManager serve para manipular as entidades do seu cÛdigo, adicionando, deletando, ou atualizando-as no seu banco de dados.
-
-6- Unidade de persistencia: nome dado ao xml, Lista de entidades: lista de classes que ser„o mapeadas para serem utilizadas no banco de dados, Propriedades JDBC: configuraÁ„o do tipo, local, usu·rio e senha do banco de dados,
-ConfiguraÁıes especÌficas do hibernate: mÈtodos de print no console e afins.
+6- Unidade de persistencia: nome dado ao xml, Lista de entidades: lista de classes que ser√£o mapeadas para serem utilizadas no banco de dados, Propriedades JDBC: configura√ß√£o do tipo, local, usu√°rio e senha do banco de dados,
+Configura√ß√µes espec√≠ficas do hibernate: m√©todos de print no console e afins.
